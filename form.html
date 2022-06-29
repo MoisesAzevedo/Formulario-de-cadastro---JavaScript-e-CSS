@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Projeto exemplo
+        </title>
+        <meta name= viewport content= width=device-width initial-scale=1.0/>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+        <header class="head-css">
+            <img  class="img" src="img/logo.png">
+        </header>
+
+        <div class="menu"> 
+            <a id="goHome" href="index.html"> Listagem</a>
+    
+            <a href="form.html"> Cadastrar</a>
+        </div>
+       
+        <section>
+            <form class="formulario" onsubmit="testaFormulario(event);">
+                <div class="linha-formulario"> 
+                    <label class="label-grande" for="name">Nome</label>
+                    <input name="nome" id="name" required type="text" placeholder="Insira o usuário">
+                </div>
+                
+                <div class="linha-formulario">
+                    <label class="label-grande" for="phone">Telefone</label>
+                    <input name="phone" id="phone" onkeypress="testaCampoTelefone(event)" onfocus="this.value = '' " required type="text" placeholder="Insira o telefone">
+                </div>
+                
+                <div class="linha-formulario xp-line" style="display:flex;">
+                    <label class="label-grande">Experiência prévia</label>                    
+                    
+                    <div>                     
+                        <input type="radio" name="xp" id="xp-yes" value="true" > <label for="xp-yes" >
+                            Sim
+                        </label>
+                        <br>
+                        <!-- <label for="name"></label> -->
+                        <input type="radio" name="xp" id="xp-no" value="false" > <label for="xp-no">
+                            Não
+                        </label>
+                    </div>
+                </div>
+               
+                <input type="submit" value="Salvar">
+            </form>
+        </section>
+        
+        <script src="./Js/form.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-css {
+  background: linear-gradient(50deg, white, #003187);
+  padding: 15px;
+}
+
+.img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+  margin-right: 15px;
+  border: 1px solid blue;
+  padding: 5px;
+  margin-top: 7px;
+  margin-left: 7px;
+  margin-bottom: 10px;
+}

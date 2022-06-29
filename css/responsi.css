@@ -1,0 +1,25 @@
+@media  screen and (max-width:768px) {
+   
+    .lista tr td {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width:682px) {
+    
+    .lista tr td {
+        width: 118px;
+        font-size: 15px;
+    }   
+
+}
+
+
+@media screen and (max-width:580px){
+ 
+    .lista tr td {
+        width: 80px;
+        font-size: 12px;
+    }
+}
+    

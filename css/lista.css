@@ -1,0 +1,80 @@
+
+:root{
+  --cor: rgb(25, 25, 73);
+}
+.lista {
+  margin: auto;
+
+}
+
+.lista tr:nth-child(1) {
+  vertical-align: top;
+  background-color: var(--cor);
+  color: white;
+  font-weight: bold;
+  
+}
+
+.lista tr:nth-child(2) {
+  vertical-align: top;
+  background-color: #eee; 
+  color: rgb(0, 0, 0);
+} 
+
+.lista tr  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.lista tr td {
+ padding: 5px;
+ width: 200px;
+} 
+
+
+
+/* ultima child (ações) */
+#as{
+  width: 100px;
+  display: flex;
+}
+
+/* ===========================
+      Botôes
+=========================== */
+
+.lista tr button {
+  border: none;
+  width: 50px;
+  margin: 0;
+  height: 100%;
+  background-color: rgb(119, 8, 8);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.lista tr button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+#but-a{
+  border: none;
+  width: 50px;
+  margin: 0;
+  height: 100%;
+  background-color:var(--cor);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#but-a a {
+  text-decoration: none;
+  color: white;
+}
